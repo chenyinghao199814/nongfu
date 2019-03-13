@@ -1,0 +1,33 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+<<<<<<< HEAD
+<<<<<<< HEAD
+    url: jdbc:mysql://localhost:3306/cyh
+=======
+    url: jdbc:mysql://127.0.0.1:3306/cyh
+>>>>>>> bda94bdef2c5cabca373e5278d45144b3fed962e
+=======
+    url: jdbc:mysql://127.0.0.1:3306/cyh
+>>>>>>> bda94bdef2c5cabca373e5278d45144b3fed962e
+    username: root
+    password: root
+  jpa:
+    show-sql: true
+    hibernate:
+       ddl-auto: update
+  mvc:
+    view:
+      suffix: .jsp
+      prefix: /WEB-INF/jsp/
+server:
+<<<<<<< HEAD
+<<<<<<< HEAD
+  port: 8086
+=======
+  port: 8080
+>>>>>>> bda94bdef2c5cabca373e5278d45144b3fed962e
+=======
+  port: 8080
+>>>>>>> bda94bdef2c5cabca373e5278d45144b3fed962e
+
